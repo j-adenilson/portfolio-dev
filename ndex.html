@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="img/Imagem do WhatsApp de 2025-04-14 à(s) 22.40.46_f55daf84.jpg" alt="foto de perfil"
+            class="foto-perfil">
+
+        <h1>José Adenilson</h1>
+        <p class="cabecalho-sub-titulo">Desenvolvedor</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Desenvolvedor de Software com formação em andamento em Sistemas para Internet e foco na construção de
+                soluções robustas, bem estruturadas e alinhadas às boas práticas de desenvolvimento.
+
+                Atuo com responsabilidade técnica, valorizando ambientes colaborativos, a troca de conhecimento e a
+                melhoria contínua. Tenho interesse constante em aprimorar minhas habilidades e contribuir para projetos
+                que impactem positivamente usuários e negócios.
+
+                Comprometido com a entrega de valor, qualidade de código e evolução profissional sólida dentro da área
+                de tecnologia.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="img/imagem.png" alt="projeto 1" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Mario Kart Terminal</h3>
+                    <p class="paragrafo-projetos">Jogo do Mario Kart no termial</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/imagem.png" alt="projeto 1" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Mario Kart Terminal</h3>
+                    <p class="paragrafo-projetos">Jogo do Mario Kart no termial</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/imagem.png" alt="projeto 1" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Mario Kart Terminal</h3>
+                    <p class="paragrafo-projetos">Jogo do Mario Kart no termial</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+
+        <h2 class="contatos-titulos">Entre em Contato</h2>
+
+        <form action="" class="formulario-contato" id="formulario" onsubmit="enviarWhatsApp(event)">
+
+            <div class="grupo-form">
+                <input type="text" placeholder="Nome" class="campo-form" id="nome" required>
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" name="" id="mensagem" placeholder="Digite sua Mensagem" itemid="mensagem" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">
+                Enviar WhatsApp
+            </button>
+
+        </form>
+
+    </section>
+
+<script src="script.js"></script>
+</body>
+
+</html>
